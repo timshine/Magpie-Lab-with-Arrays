@@ -50,9 +50,9 @@ class MagpieLab12a {
 			responses.add("Do you have any siblings?");
 			responses.add("What did you ask your parents for Christmas?");
 			responses.add("What are the names of your family members that live with you?");
-			responses.add("When were they born?");
+			responses.add("What year were your parents born?");
 			int whichResponse = (int) (Math.random() * responses.size()); // Random response
-
+			
 			// Switch Case Response for Random responses of family
 			switch (whichResponse) {
 			case 0:
